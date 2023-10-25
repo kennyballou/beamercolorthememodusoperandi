@@ -1,0 +1,40 @@
+* Modus Operandi Beamer Color Theme
+
+A [[http://www.ctan.org/tex-archive/macros/latex/contrib/beamer/][Beamer]] color theme inspired by [[https://gitlab.com/protesilaos/modus-themes][Modus Themes]] by [[https://gitlab.com/protesilaos][@protesilaos]].  Structure and
+implementation inspired by the [[https://github.com/jrnold/beamercolorthemesolarized][Solarized Beamer Theme]] by [[https://github.com/jrnold][Jeffrey Arnold]].
+
+
+This is a real basic theme with little in the way of bells and whistles.  Maybe
+someday, the package will grow up to be a full package with cool light/dark
+(operandi/vivendi) toggles and other cool features.  Until then, it is only a
+simple little package with some different colors for your beamer
+presentations.
+
+* Installation
+
+Copy the ~.sty~ file into the appropriate location (such as next to your beamer
+presentation), and load the theme.
+
+#+begin_src latex
+\usecolortheme{modusoperandi}
+#+end_src
+
+Optionally, an accent color can be selected, currently, only available options
+are the main foreground colors of the Modus Themes.  Namely, ~yellow~, ~red~,
+~magenta~, ~blue~, and ~cyan~.  Maybe more will be provided later.  Furthermore, the
+accent color only controls the frame titles.  TODO: Adjust block titles to
+follow the accent choice.
+
+* License
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program.  If not, see [[https://www.gnu.org/licenses/gpl-3.0.html]].
